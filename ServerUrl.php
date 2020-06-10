@@ -1,6 +1,6 @@
 <?php
 class ServerUrl{
-
+    //Function that tests the connections
     public function testConnection($server,$username,$password){
         $timestamp = time();
         $link = new mysqli($server,$username,$password);
